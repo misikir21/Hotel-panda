@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-const { fontFamily } = require("tailwindcss/defalutTheme");
+const { fontFamily } = require("tailwindcss/defaultTheme");
 
 const config: Config = {
   content: [
@@ -14,7 +14,7 @@ const config: Config = {
         secondary: "#f2c641",
         tertiary: {
           dark: "#f27405",
-          light: "f2c641",
+          light: "#f2c641",
         },
       },
       fontFamily: {
